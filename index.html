@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marrwan Waleed | Home</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        body { background-color: #030712; color: #f9fafb; font-family: 'Inter', sans-serif; }
+        .glass-card { background: rgba(17, 24, 39, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.08); }
+        .accent-text { color: #4FD1C5; }
+    </style>
+</head>
+<body class="p-4 md:p-8 min-h-screen">
+    <nav class="max-w-5xl mx-auto mb-10 glass-card p-4 rounded-2xl flex justify-between items-center px-6 md:px-10">
+        <div class="accent-text font-bold text-xl tracking-tighter">MARRWAN.Waleed</div>
+        
+        <div class="flex gap-6 text-sm font-bold">
+            <a href="index.html" class="accent-text">About</a>
+            <a href="certificates.html" class="hover:text-[#4FD1C5] transition">Certificates</a>
+            <a href="contact.html" class="hover:text-[#4FD1C5] transition">Contact</a>
+        </div>
+
+        <div class="flex gap-4 border-l border-white/10 pl-4 ml-2">
+            <a href="https://github.com/marrwan-waleed" target="_blank" class="hover:text-[#4FD1C5] transition">
+                <i data-lucide="github" class="w-5 h-5"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/marrwan-waleed-2b3691361" target="_blank" class="hover:text-[#4FD1C5] transition">
+                <i data-lucide="linkedin" class="w-5 h-5"></i>
+            </a>
+        </div>
+    </nav>
+
+    <main class="max-w-5xl mx-auto">
+        <div class="glass-card p-8 md:p-12 rounded-3xl flex flex-col md:flex-row items-center gap-10">
+            <div class="relative group flex-shrink-0">
+                <div class="absolute -inset-1 bg-[#4FD1C5] rounded-3xl blur opacity-20 group-hover:opacity-40 transition"></div>
+                <img src="WhatsApp Image 2026-04-14 at 6.07.24 PM.jpeg" class="relative w-40 h-40 md:w-48 md:h-48 rounded-3xl border-2 border-[#4FD1C5] object-cover" alt="Marrwan Waleed">
+            </div>
+
+            <div class="text-left flex-1">
+                <h1 class="text-4xl md:text-5xl font-bold mb-4">Marrwan Waleed Mohamed</h1>
+                <p class="accent-text font-mono text-lg mb-6">Cybersecurity Enthusiast |</p>
+                <p class="text-gray-400 leading-relaxed text-base">
+                    I am Marrwan Waleed, a 15-year-old programmer and 3rd-prep student. I am deeply passionate about the world of coding and cybersecurity. I have experience in Python, C++, and Java, and I specialize in developing mobile applications using Flutter.
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Initialize Lucide icons
+        lucide.createIcons();
+    </script>
+</body>
+</html>
